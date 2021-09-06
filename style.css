@@ -1,0 +1,174 @@
+/*PAGE RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+/*FLEX CONTAINERS*/
+
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#header{
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+
+#main{
+    widows: 100vw;
+    height: 85vh;
+
+}
+
+#footer{
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+
+}
+
+
+/*GRID SECTIONS*/
+
+#main-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 30% 30% 30% 10%;
+    grid-template-areas: 
+    ". nav nav ."
+    ". mid mid social"
+    ". mid mid social"
+    ". . . .";
+}
+
+
+#header-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "dl . title";
+}
+
+
+/* HEADER GRID SECTIONS */
+
+.page-title{
+    grid-area: title;
+    color: #00243e;
+    text-align: right;
+    width: 100%;
+    font-family: spartan, sans-serif;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+
+
+/* MAIN GRID SECTIONS */
+
+.links {
+    grid-area: nav;
+
+}
+
+.links ul{
+    grid-area: nav;
+    display: flex;
+    font-family: Oswald;
+    color: #536976;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2.1rem 0 0 0;
+    
+}
+
+.social{
+    grid-area: social;
+    display: flex;
+    color: #00243e;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0 6em;
+    z-index: 1;
+}
+
+.intro{
+    grid-area: mid;
+    display: flex;
+}
+
+.intro > p{
+    padding: 20px 0 0 0;
+}
+
+.headshot {
+    width: 9rem;
+    border-radius: 15px 15px 15px 15px;
+    height: 16rem;
+}
+
+.headshot-div {
+    padding: 20px;
+}
+
+.contact {
+    grid-area: mid;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.submit-hand {
+    padding: 1rem;
+    font-size: 4rem;
+    transform: scale(.5);
+    text-shadow: 0 2px 4px #000000;
+    transition: 
+    text-shadow .2s ease-in-out,
+    transform .2s ease-in-out;
+}
+
+.submit-hand:hover {
+    transform: scale(1) translatey(-20px);
+    text-shadow: 0 20px 20px #000000;
+
+
+    }
+    .submit-hand::before {
+    content: '✋';
+    }
+
+    .submit-hand:hover::before {
+    content: '✋';
+    }
+
+
+/*THIS IS MY FOOTER*/
+
+footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
