@@ -6,7 +6,7 @@
 <!--ADD IN THE CORRECT FAVICON -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="normalize.css">
-        <link href="style.css" rel="stylesheet" media="all"/>
+        <link rel="stylesheet" href="style.css" media="all"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Oswald:wght@300;400&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
@@ -23,10 +23,14 @@
     <header id="header">
         <div id="header-grid">
 
-
-            <div class="page-title">
-                </h1>contact.</h1>
+            <div>
+                <img src="img/ghtlogo.png">
             </div>
+
+            <div id="page-title">
+                <h1>contact.</h1>
+            </div>
+        </div>
     </header>
 
 
@@ -48,24 +52,49 @@
 
 <!-- THIS IS MY CONTACT FORM-->
 
-<div class="contact">
-    <p>Create an account:</p>
-<form action="submission.html" method="GET">
-<label for="username">Username:</label>
-<br>
-        <input id="username" name="username" type="text" required minlength="3" maxlength="15">
-<br>
-<label for="pw">Password:</label>
-<br>
-<!--Add the pattern attribute to the input below-->
-        <input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
-<br>
-
-    <div class="submit-hand">
-        <input type="submit" value="✋">
-    </div>
-</form>/*
-
+        <div class="contact-body">
+            <div class="contact-form">
+            <h1 class="contact-title">GET IN TOUCH</h1>
+                <div class="wrapper">
+                    <div class="business-info">
+                        <ul>
+                            <li>admin@ghthomas.tech</li>
+                            <li>(+61)401189998</li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                    <h3>Email Me</h3>
+                        <form  method="POST" data-netlify="true">
+                            <p>
+                                <label>Name</label>
+                                <input type="text" name="name">
+                            </p>
+                            <p>
+                                <label>Company</label>
+                                <input type="text" name="company">
+                            </p>
+                            <p>
+                                <label>Email Address</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label>Phone Number</label>
+                                <input type="text" name="phone">
+                            </p>
+                            <p class="full">
+                                <label>Message</label>
+                                <textarea name="message" rows="5"></textarea>
+                            </p>
+                            <div class="submit-hand">
+                                <input id="tgl" type="checkbox" class="hidden">
+                                <label for="tgl" class="pointer">✋</label>
+                            </div>
+                            <p>GIVE A CRISP HIGH FIVE TO SUBMIT!</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 <!--THIS IS MY SOCIAL MEDIA LINKS BAR-->
@@ -89,6 +118,7 @@
     <footer id="footer">
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> GHTHOMAS</p> 
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
 
