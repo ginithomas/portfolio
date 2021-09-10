@@ -1,3 +1,33 @@
+commit 9643cac4b7336d6a44e29a27a0388febed5b4828
+Author: ginithomas <gini.thomas@hotmail.com>
+Date:   Fri Sep 10 20:57:38 2021 +1000
+
+    sitemap & readme.md
+
+commit 4d3fe4ccb3945e74b482aa48d61d2c2731142083
+Author: ginithomas <gini.thomas@hotmail.com>
+Date:   Fri Sep 10 18:56:44 2021 +1000
+
+    html change - author added
+
+commit ae72f1aad50a02869be08c62ef1d3ac0fac0f401
+Author: ginithomas <gini.thomas@hotmail.com>
+Date:   Fri Sep 10 18:42:23 2021 +1000
+
+    folder restructure
+
+commit 82e1d99946c062135bd38844516c199020f1dcfd
+Author: ginithomas <gini.thomas@hotmail.com>
+Date:   Fri Sep 10 18:41:03 2021 +1000
+
+    folder restructure
+
+commit 38e86f9c7ba7080da32b620953224c0ce3a38a5f
+Author: ginithomas <gini.thomas@hotmail.com>
+Date:   Fri Sep 10 18:29:05 2021 +1000
+
+    git log
+
 commit 97565f853d434d3687c2828414c87fd2d70a36f6
 Author: ginithomas <gini.thomas@hotmail.com>
 Date:   Fri Sep 10 13:35:41 2021 +1000

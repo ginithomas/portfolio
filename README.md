@@ -23,49 +23,49 @@ The purpose is to provide a personal portfolio showcasing myself and learned pro
 
 Sitemap of the portfolio website.
 
-![](docs/screenshotSitemap.png)
+![](doc/screenshotSitemap.png)
 
 ## WEBSITE SCREENSHOTS:
 
 ### Index / Homepage section
 
-![](docs/screenshotHome.png)
+![](doc/screenshotHome.png)
 
 ### About section
 
-![](docs/screenshotAbout.png)
+![](doc/screenshotAbout.png)
 
 ### Contact section
 
-![](docs/screenshotContact.png)
+![](doc/screenshotContact.png)
 
 ### Blog section
 
-![](docs/screenshotBlogs.png)
+![](doc/screenshotBlogs.png)
 
 ### Blog Post 1 
 
-![](docs/screenshotBlog1.png)
+![](doc/screenshotBlog1.png)
 
 ### Blog Post 2 
 
-![](docs/screenshotBlog2.png)
+![](doc/screenshotBlog2.png)
 
 ### Blog Post 3 
 
-![](docs/screenshotBlog3.png)
+![](doc/screenshotBlog3.png)
 
 ### Blog Post 4 
 
-![](docs/screenshotBlog4.png)
+![](doc/screenshotBlog4.png)
 
 ### Blog Post 5
 
-![](docs/screenshotBlog5.png)
+![](doc/screenshotBlog5.png)
 
 ### Portfolio Section
 
-![](docs/screenshotPortfolio.png)
+![](doc/screenshotPortfolio.png)
 
 ##  TARGET AUDIENCE:
 
