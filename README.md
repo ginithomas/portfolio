@@ -1,5 +1,5 @@
 # CA T1A2 - Portfolio 
-Website URL :[Portfolio] (https://hopeful-booth-6534d4.netlify.app/index.html) \
+Website URL: [Portfolio](https://hopeful-booth-6534d4.netlify.app/index.html) \
 [Repo] (https://github.com/ginithomas/portfolio)
 
 ## PURPOSE:
