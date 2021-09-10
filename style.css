@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 h1{
     margin: 0;
 }
@@ -21,9 +26,6 @@ ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -135,7 +137,6 @@ img{
 /* Landing Page initial introduction - "Hello There." section */
 .intro{
     grid-area: mid;
-
     width: 55vw;
     height: 40vh;
     padding: 7rem;
@@ -317,8 +318,7 @@ img{
     text-shadow: 0 20px 20px #000000;
 }
 
-
-    .wrapper > *{
+.wrapper > *{
         padding: 2em;
     }
 
@@ -359,7 +359,6 @@ img{
 }
 
 
-
 /* Profile page (profile.html) including resume/cv and a section on 'career interests' */
 .interests {
     grid-area: mid;
@@ -373,7 +372,7 @@ img{
     text-align: right;
     align-self: auto;
     justify-content: center;
-    padding: 2rem 2rem 2rem 0;
+    padding: 8rem 2rem 3rem 0;
 }
 
 .resume h1{
@@ -382,11 +381,12 @@ img{
     font-size: 30px;
 }
 
+
 .interests {
     grid-area: mid;
     text-align: left;
     justify-content: left;
-    padding: 1rem 1rem 0 0;
+    padding: 22rem 1rem 0 0;
 }
 
 .interests h1{
@@ -396,7 +396,7 @@ img{
 }
 
 
-.interests .resume p{
+.interests .resume > p{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 14px;
     text-align: left;
@@ -412,16 +412,21 @@ footer{
         font-family: "roboto condensed", sans-serif;
 }    
 
-@media(min-width:700px){
-        .wrapper{
-            display: grid;
-            grid-template-columns: 30% 70%;
-        }
-    }
 
-    @media(min-width:700px){
-        .wrapper{
-            display: grid;
-            grid-template-columns: 30% 70%;
-        }
+/* Responsiveness for smaller screens */
+
+@media(min-width:700px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 30% 70%;
     }
+}
+
+
+/* Responsiveness for larger screens */
+@media(min-width:700px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+}
