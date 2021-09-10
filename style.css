@@ -415,18 +415,7 @@ footer{
 
 /* Responsiveness for smaller screens */
 
-@media(min-width:700px){
-    .wrapper{
-        display: grid;
-        grid-template-columns: 30% 70%;
-    }
-}
+
 
 
 /* Responsiveness for larger screens */
-@media(min-width:700px){
-    .wrapper{
-        display: grid;
-        grid-template-columns: 30% 70%;
-    }
-}
